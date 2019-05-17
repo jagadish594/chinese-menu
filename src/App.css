@@ -1,0 +1,59 @@
+
+.NavBar{
+  text-align: center;
+  margin-top: 10px;
+}
+.ParentCat{
+  display: inline;
+}
+.MyCategories {
+  margin: 30px;
+  padding: 20px;
+  background-color: lightblue;
+  text-align: center;
+  width: 250px;
+  float: left;
+}
+
+.ItemsInCategories{
+  margin: 30px;
+  padding: 20px;
+  background-color: lavender;
+  width: 600px;
+  float: left;
+}
+
+.ParentCat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.LinkButton{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  transition: all .2s ease-in-out;
+}
+
+.LinkButton:hover, .LinkButton:focus {
+  text-decoration: none;
+  transform: scale(1.3);
+}
+
+.HomeStyle{
+  text-align: center;
+}
